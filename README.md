@@ -1,3 +1,3 @@
 # Markdown Previewer
 
-![Markdown Previewer]('./screen.png)
+![Markdown Previewer](screen.png)
