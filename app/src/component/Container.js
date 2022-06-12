@@ -26,10 +26,25 @@ class MarkdownContainer extends Component {
 
   render() {
     return (
-      <div>
-        <MarkdownEditor onChange={this.handleChange} value={this.state.text} />
-        <MarkdownPreviewer markup={this.createMarkup()} />
-      </div>
+      <>
+        <div>
+          <MarkdownEditor
+            onChange={this.handleChange}
+            value={this.state.text}
+          />
+          <MarkdownPreviewer markup={this.createMarkup()} />
+        </div>
+        <p class="footer">
+          &copy; Clinton Otse{' '}
+          <a
+            href="https://codepen.io/Clinton_Otse/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            codepen<i class="fab fa-free-code-camp"></i>
+          </a>
+        </p>
+      </>
     );
   }
 }

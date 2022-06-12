@@ -2,7 +2,11 @@ import './App.css';
 import MarkdownContainer from './component/Container';
 
 function App() {
-  return <MarkdownContainer />;
+  return (
+    <>
+      <MarkdownContainer />
+    </>
+  );
 }
 
 export default App;
